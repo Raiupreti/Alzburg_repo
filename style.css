@@ -1,0 +1,114 @@
+/* ===== ALZBURG | Tours page ===== */
+
+#wrapper .alzburg_tours_sec {
+    padding-top: 90px;
+}
+
+.alzburg_tours_sec .alzburg_tours_col .post-item .col-inner {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+}
+
+.alzburg_tours_sec .alzburg_tours_col .post-item .col-inner .box-text {
+    text-align: left;
+    padding: 15px 15px 35px;
+}
+
+.alzburg_tours_sec .alzburg_tours_col .post-item .col-inner .box-text h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: normal;
+    font-weight: 700;
+    height: 48px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.alzburg_tours_sec .alzburg_tours_col .post-item .col-inner .box-text .is-divider {
+    display: none;
+}
+
+.alzburg_tours_sec .alzburg_tours_col .post-item .col-inner .box-text p {
+    margin: 0 0 20px;
+    font-size: 14px;
+    color: #42454A;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.alzburg_tours_sec .alzburg_tours_col .post-item .col-inner .box-text .con-sub a {
+    color: #f1f1f1;
+    font-size: 14px;
+    padding: 14px 27px !important;
+    text-decoration: none;
+    margin: 0;
+}
+
+.alzburg_tours_sec .alzburg_tours_col .post-item {
+    padding: 0 10px 20px;
+}
+
+.fancybox-active #wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media (min-width:1201px) and (max-width:1330px) {
+    header .header-inner #logo {
+        margin: 0;
+    }
+    header .header-main .header-nav li a.nav-top-link {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:549px) and (max-width:991px) {
+    .alzburg_tours_sec .alzburg_tours_col .post-item {
+        max-width: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .alzburg_tours_sec .alzburg_tours_col {
+        max-width: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #wrapper .alzburg_tours_sec {
+        padding-top: 75px;
+        padding-bottom: 20px;
+    }
+    #fancybox-wrap {
+        width: 100% !important;
+        left: 0px !important;
+        box-sizing: border-box;
+    }
+    #fancybox-wrap #fancybox-content {
+        width: 100% !important;
+    }
+}
+
+@media (min-width:0px) and (max-width:550px) {
+    .alzburg_tours_sec .alzburg_tours_col .post-item .col-inner .box-text h3 {
+        height: auto;
+    }
+    #fancybox-wrap {
+        top: 0 !important;
+        height: 100% !important;
+    }
+    #fancybox-wrap #fancybox-content {
+        height: 100% !important;
+    }
+}
+
+/* ===== /ALZBURG | Tours page ===== */
